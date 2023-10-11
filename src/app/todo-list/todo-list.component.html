@@ -1,0 +1,14 @@
+<div>
+    <!-- Add task form -->
+    <form>
+      <!-- Input fields for title and description -->
+      <button (click)="addTask()">Add Task</button>
+    </form>
+  
+    <!-- Task list -->
+    <ul>
+      <li *ngFor="let task of tasks">
+        <!-- Display task information and options to edit, mark as complete, and delete -->
+      </li>
+    </ul>
+  </div>
